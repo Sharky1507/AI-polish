@@ -25,7 +25,7 @@ import datetime
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 # trained models
-emotion_model = load_model('deep_face.h5')
+# emotion_model = load_model('deep_face.h5')
 emotion_audio_model = joblib.load('Emotion_Audio_Model.pkl')
 
 # Labels the models can predict
